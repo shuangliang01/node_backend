@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "expense management system server",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "start": "nodemon app_hooked.js",
     "start-with-params": "PARAM1=p1 PARAM2=p2 nodemon app_hooked.js",
